@@ -1,0 +1,174 @@
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #f4f8f9;
+  color: #222;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background: #3a6e6c;
+  padding: 1em 0;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 1.5em;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1em;
+  transition: color 0.2s;
+}
+
+nav ul li a:hover {
+  color: #b2d8d8;
+}
+
+.section {
+  max-width: 800px;
+  margin: 2em auto;
+  background: #fff;
+  padding: 2em;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+}
+
+.profile-img {
+  width: 120px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto 1em;
+  border: 3px solid #3a6e6c;
+}
+
+.highlight {
+  color: #3a6e6c;
+  font-weight: bold;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.about-me {
+  margin: 1.5em 0;
+  font-size: 1.1em;
+}
+
+.languages {
+  margin-top: 1em;
+  font-size: 1em;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1em;
+  font-size: 1em;
+}
+
+th, td {
+  border: 1px solid #d1e7e0;
+  padding: 0.75em;
+  text-align: left;
+  vertical-align: top;
+}
+
+th {
+  background: #eaf6f3;
+  color: #295a58;
+}
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+  margin-top: 1em;
+}
+
+.skill {
+  background: #eaf6f3;
+  color: #3a6e6c;
+  padding: 0.5em 1.2em;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 1em;
+  box-shadow: 0 1px 3px rgba(58,110,108,0.07);
+}
+
+.icon {
+  width: 20px;
+  vertical-align: middle;
+  margin-right: 0.5em;
+}
+
+form {
+  margin-top: 1em;
+  background: #eaf6f3;
+  padding: 1.5em;
+  border-radius: 10px;
+  box-shadow: 0 1px 4px rgba(58,110,108,0.05);
+}
+
+input, textarea {
+  width: 100%;
+  padding: 0.5em;
+  margin-top: 0.25em;
+  margin-bottom: 1em;
+  border: 1px solid #b2d8d8;
+  border-radius: 6px;
+  font-size: 1em;
+  background: #fff;
+}
+
+button {
+  background: #3a6e6c;
+  color: #fff;
+  border: none;
+  padding: 0.75em 2em;
+  border-radius: 6px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+button:hover {
+  background: #295a58;
+}
+
+.contact-info {
+  margin-top: 2em;
+  font-size: 1.1em;
+}
+
+.contact-info a {
+  color: #3a6e6c;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+@media (max-width: 600px) {
+  .section {
+    padding: 1em;
+  }
+  .skills-list {
+    flex-direction: column;
+    gap: 0.5em;
+  }
+  nav ul li {
+    display: block;
+    margin: 0.5em 0;
+  }
+} 
